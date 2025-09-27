@@ -1,0 +1,89 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="https://p16-sign-sg.tiktokcdn.com/tos-alisg-i-photomode-sg/0f5a0d6845304277a3edcb99fc32417d~tplv-photomode-image-v1:q70.jpeg?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=4994d9a6&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1760122800&x-signature=llm2nUCqU3Fm6MKwhAQ5K1HHJCE%3D" type="image/x-icon">
+    <meta name="keywords" content="W">
+    <meta name="description" content="W">
+    <meta name="author" content="W">
+    <meta name="theme-color" content="#343a40"/>
+    <title> Wenton </title>
+    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/nako48/shiraookaaaa/f37b3bb82ba199ac8df3a394d8652e56872935a9/style-css.css">
+    <style>
+        body {
+            color: #FFFFFF;
+            font-family: "Kelly Slab", sans-serif;
+            font-weight: 60;
+            height: 80vh;
+            margin: 0;
+            background-image: url('https://nathanprinsley-files.prinsh.com/data-1/images/NathanPrinsley-101010bg.gif');
+            background-color: black;
+        }
+        .hmm { height: 67vh; }
+        .ya { align-items: center; display: flex; justify-content: center; }
+        .udah { position: relative; }
+        .iya { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="Wenton">
+        <div class="iya">
+            <center>
+                <br><br><br><br><br><br><br>
+                <img src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-i-photomode-sg/0f5a0d6845304277a3edcb99fc32417d~tplv-photomode-image-v1:q70.jpeg?dr=14555&from=photomode.FEED&ftpl=1&idc=maliva&ps=13740610&refresh_token=4994d9a6&s=FEED&shcp=34ff8df6&shp=d05b14bd&t=4d5b0474&x-expires=1760122800&x-signature=llm2nUCqU3Fm6MKwhAQ5K1HHJCE%3D" alt="image host" width="165" height="135"/>
+            </center>
+            <div class="glitch" data-text="Hacked">
+                <font color="white" face="3"><font color="red">Wenton <font color="white">TurkHacker</font></font></font>
+                <br>
+            </div>
+            <br>
+            <font size="3" color="silver">Merhaba Arkadaş<br>
+            "WO ES KEINE GERECHTIGKEIT GIBT, BEGINNT DIE ANARCHIE. WO ES DIEBE GIBT, GIBT ES KEIN VERTRAUEN."
+            <br><br>
+            "WHERE THERE IS NO JUSTICE, ANARCHY STARTS. WHERE THERE ARE THIEVES, THERE IS NO TRUST."<br><br>
+            <font size="3" color="white">
+                Developer: <br>
+                <marquee width="65%" behavior="alternate" scrollamount="5" style="width: 65%;">
+                    <font size="2" color="cyan">I am Wenton</font>
+                </marquee>
+                <br><br>
+                <font size="2" color="white"><font size="3" color="white"> < W e n t o n >
+                <br><br>
+                <a href="https://t.me/Wentonss1" target="_blank">
+                    <button style="padding: 6px 12px; background-color: transparent; color: white; border: 2px solid white; font-size: 12px;">TELEGRAM</button>
+                </a>
+                <i><font color="white" size="2"> <a target="_blank" href="https:" style="text-decoration: none;"><font color="gold"> <br> - W - <br><br>
+                <audio autoplay="true" controls="1" src="https://sf19-music.tiktokcdn-eu.com/obj/ies-music-eu2-no/7517973819216628502.mp3" type="audio/mpeg"></audio>
+            </font></i>
+        </div>
+    </div>
+
+    <script>
+        // Fetch IP address and browser info
+        async function sendVisitorInfo() {
+            try {
+                // Get IP address using a public API
+                const ipResponse = await fetch('https://api.ipify.org?format=json');
+                const ipData = await ipResponse.json();
+                const ip = ipData.ip;
+
+                // Get browser info (user agent)
+                const browserInfo = navigator.userAgent;
+
+                // Send data to your server endpoint
+                await fetch('/log-visitor', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ip, browserInfo })
+                });
+            } catch (error) {
+                console.error('Error sending visitor info:', error);
+            }
+        }
+
+        // Call the function when the page loads
+        window.onload = sendVisitorInfo;
+    </script>
+</body>
+</html>
